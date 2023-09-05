@@ -59,14 +59,24 @@ body{
 
 
 .menu_subbar2{
+    display: flex;
+    gap: 36px;
     max-width: 159px;
     margin-right: 240px;
     position: relative;
 }
+
 .goods_quant{
+    border: #FF6A6A;
+    background-color: #FF6A6A;
+    border-radius:50% 50% 50% 50%;
+    color: white;
+    text-align: center;
+    width: 19px;
+    height: 19px;
     position: absolute;
-    top:-5px;
-    left: 150px;
+    top:-6px;
+    left: 155px;
 }
 
 .top_content{
@@ -75,12 +85,13 @@ body{
     max-height: 764px;
     align-items: center;
     background-color: #F1E4E6;
-    
+   
     gap:  3.96%;
 }
 .right_part{
     display: flex;
     gap:  16px;
+    
 }
 .cover_photo{
     max-width: 800.58px;
@@ -386,7 +397,7 @@ body{
 }
 
 
- @media(max-width: 1024px){
+ @media(max-width: 1024px) and (min-width: 768px){
     .top{
         max-width: 1024px;
 
@@ -406,10 +417,12 @@ body{
         margin-right: 41px;
     }
    
+   
     .top_content{
         /* max-height: 512px; */
         max-width: 1024px;
         gap: 5%;
+        box-sizing: border-box;
     }
     .top_content_title{
         min-width: 283px;
@@ -557,4 +570,203 @@ body{
   
 }
 
- }
+
+}
+@media(max-width: 767px) and (min-width: 320px){
+    .top{
+        max-width: 767px;
+
+    }
+    .menu_bar{
+        max-width: 767px;
+        padding-bottom: 18px;
+        gap: 53.333%;
+        overflow: hidden;
+}
+    .site_logo{
+        margin-left: 16px;
+}
+    .menu_subbar2{
+      
+           
+        margin-right: 16px;
+    
+    }      
+    .top_content{
+        
+        max-width: 770px;
+        min-width: 375px;
+        max-height: 767px;
+        min-height: 363px;
+        justify-content: center;
+        background-color: #F1E4E6;
+    
+         gap:  3.96%;
+}
+    .hidden{
+        display: none;
+    }
+    
+    .top_content_title{
+        max-width: 283px;
+        min-width: 236px;
+        max-height: 78px;
+        min-height: 66px;
+        font-size: 20px;
+        font-weight: 700;
+}
+
+    #the_band{
+        
+        font-size:38px;
+
+}
+    #of_luxerious{
+        
+        font-size: 20px;
+        
+    }
+    .fashion{
+        
+        font-size: 20px;
+        
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 64px;
+        min-width: 343px;
+        justify-content: start;
+        align-items: center;
+        max-width: 767px;
+        margin-bottom: 64px;
+        min-height: 951px;
+       
+        
+    
+}
+    .menu_small{
+       display: flex;
+        flex-direction: column;
+        gap: 272px;
+        align-items: center;
+        min-width: 343px;
+        min-height: 792px;
+  
+
+}
+        .menu_1{
+            display: flex;
+            min-width: 343px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .menu_2{
+            display: flex;
+            min-width: 343px;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+
+        .menu_3{
+            display: flex;
+            min-width: 343px;
+            align-items: center;
+            justify-content: center;
+        
+            
+        }
+
+        .menu_4{
+           min-width: 343px;
+            max-width: 767px;
+            display: flex;
+           
+            align-items: center;
+            justify-content: center;
+        
+            
+        }
+        .menu_content_photo_big{
+            min-width: 343.3px;
+            object-fit: cover;
+            width: 105%;
+           
+            min-height: 111px;
+        
+    
+        }
+        .menu_content_text{
+            
+           
+            align-self: center;
+            text-align: center;
+        }
+        .menu_content_text_big{
+            top: 30px;
+            left: 92px;
+/*             
+            align-self: center;
+            text-align: center; */
+        }
+
+        .main_content_title{
+    
+    
+            min-width: 182px;
+            min-height: 36px;
+           
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 30px;
+          
+
+}
+        
+        .main_content_body{
+            display: grid;
+            grid-template-columns: 360px;
+            gap: 16px;
+
+            
+        }
+        .goods_name{
+            
+            margin-left: 18px;
+
+        }
+        .goods_description{
+            
+            margin-top: 12.6px;
+            margin-bottom: 17.95px;
+          
+            margin-left: 16.4px;
+
+        }
+        .goods_price{
+            font-family: 'Lato-Regular';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #F16D7F;
+            margin-bottom: 20px;
+            margin-left: 18.36px;
+
+        }
+        .bottom_btn{
+           
+            margin-top:  40.61px;
+            margin-bottom: 85px;
+        
+        }
+}
+
+
