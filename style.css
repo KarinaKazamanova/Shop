@@ -11,6 +11,15 @@
     src: url('./font2/Lato-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Lato-Thin';
+    src: url('./font2/Lato-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Italic';
+    src: url('./font2/Lato-Italic.ttf');
+}
 
 *{
     margin: 0;
@@ -369,6 +378,7 @@ body{
     justify-content: center;
     margin-top: 48px;
     margin-bottom: 60px;
+    max-width: 1600px;
   
 }
 .btn{
@@ -394,6 +404,186 @@ body{
    
     text-align: center;
 
+}
+/* .bottom{
+    display: flex;
+    flex-direction: column;
+   
+} */
+
+.top_bottom_info{
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 103px;
+    padding-bottom: 104px;
+    background-color: #222224;
+    max-width: 1600px;
+}
+.top_bottom_info_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tbi_pic{
+    max-width: 50px;
+}
+.tbi_header{
+    font-family: 'Lato-Regular';
+    max-width: 157px;
+    color: white;
+    font-size: 19.96px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 28.07px;
+    margin-bottom: 16px;
+    line-height: 23.95px;
+
+
+}
+.tbi_text{
+    max-width: 360px;
+    color: #FBFBFB;
+    font-family:'Lato-Thin';
+    font-size: 13.97px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 16.77px;
+
+}
+.subscribe{
+    max-width: 1600px;
+    position: relative;
+    min-height: 450px;
+}
+.subscribe_background{
+    opacity: 70%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 1600px;
+}
+
+.seller_info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 97px;
+    left: 228.29px;
+    max-width: 359px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.about_seller{
+    font-family: 'Lato-Italic';
+    max-width: 360px;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.subscribe_form{
+    position: relative;
+    top: 150px;
+    left: 811px;
+    max-width: 557px;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+}
+.subscribe_text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37.73px;
+    text-align: center;
+    font-family: 'Lato-Regular';
+    max-height: 61px;
+    max-width: 557px;
+    margin-bottom: 32px;
+}
+.subscription_purpose{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.1px;
+    text-align: center;
+    font-family: 'Lato-Regular';
+}
+.email_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_email_outside{
+    
+    max-width: 256px;
+    max-height: 49px;
+    background-color: #E1E1E1;
+    border-radius: 10px  0px 0px 10px;
+    
+}
+
+.input_email{
+    margin-top: 7px;
+    margin-bottom: 6px;
+    margin-left: 22px;
+    margin-right: 72px;
+    max-width: 170px;
+    max-height: 36px;
+    background-color: #E1E1E1;
+    color: #222224;
+    border: none;
+}
+
+.sub_btn_out{
+    max-width: 100px;
+    max-height: 49px;
+    background-color: #F16D7F;
+    border-radius:0px 10px 10px 0px;
+}
+
+.subscribe_btn{
+     margin-top: 7px;
+    margin-bottom: 6px;
+    margin-left: 7px;
+    margin-right: 8px;
+    max-width: 85px;
+    max-height: 36px;
+    background-color: #F16D7F;
+    color: #ffffff;
+    border: none;
+}
+.follow_us{
+    padding: 24px 237.95px  23px 135px;
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    gap: 655px;
+    
+}
+.law_info{
+    
+    max-width: 332px;
+}
+.social_network_links{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.nw_link{
+    position: relative;
+}
+.nw_icon{
+    position: absolute;
+    top: 8px;
+    left: 8px;
 }
 
 
@@ -567,11 +757,62 @@ body{
     
         margin-top: 32px;
         margin-bottom: 70.52px;
+       
   
 }
+    .top_bottom_info{
+        flex-direction: column;
+        padding-top: 48.16px;
+        padding-bottom: 64px;  
+        max-width: 1024px;
+        gap: 48.42px;
 
 
-}
+    }
+
+    .subscribe{
+        max-width: 1024px;
+        min-height: 614px;
+    }
+    .subscribe_background{
+        max-width: 1024px;
+        min-height: 614px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+    .seller_info{
+        top: 64px;
+        left: 204px;
+    }
+    .subscribe_form{
+        top: 337px;
+        left: 105px;
+    }
+    .follow_us{
+        padding: 30px 32.34px 30px 32px;
+        display: flex;
+        justify-content: center;
+        max-width: 1024px;
+        gap: 305px;
+        background-color: #222224;
+    
+    }
+    .law_info{
+   
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        max-width: 2511px;
+    }
+
+ }
+
+
 @media(max-width: 767px) and (min-width: 320px){
     .top{
         max-width: 767px;
@@ -767,6 +1008,78 @@ body{
             margin-bottom: 85px;
         
         }
+
+
+
+        .top_bottom_info{
+          
+            gap: 46.78px;
+            flex-direction: column;
+            padding-top: 48px;
+            padding-bottom: 81px;
+            background-color: #222224;
+            min-width: 343px;
+        }
+        .subscribe{
+            min-width: 343px;
+            position: relative;
+            min-height: 550px;
+        }
+        .subscribe_background{
+            min-width: 343px;
+            min-height: 550px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .seller_info{
+            top: 64px;
+            left: 13px;
+            min-width: 343px;
+        }
+        .subscribe_form{
+            top: 317px;
+            left: 13px;
+            
+        }
+        .input_email_outside{
+    
+            max-width: 245px;
+            max-height: 49px;
+            background-color: #E1E1E1;
+            
+    
+        }
+        .subscription_purpose{
+            
+            font-size: 14px;
+            
+        }
+        .seller_photo{
+            max-width: 92px;
+        }   
+
+        .follow_us{
+            padding: 43px 62px 9px 62px;
+            flex-direction: column-reverse;
+            gap: 40px;
+            min-width: 343px;
+            min-height: 145px;
+            background-color: #222224;
+           
+
+        }
+        .law_info{
+    
+            max-width: 251px;
+            color: white;
+}
+
+        .social_network_links{
+            max-width: 240px;
+}
+
+
+
 }
 
 
